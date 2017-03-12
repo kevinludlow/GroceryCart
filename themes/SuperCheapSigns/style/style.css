@@ -1,0 +1,41 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333333;
+}
+
+#header
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: #333333;
+}
+
+#header div.title
+{
+  padding-left: 50px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#header div.subtitle
+{
+  padding-top: 4px;
+  padding-left: 55px;
+  font-size: 11px;
+  color: #ededed;
+  letter-spacing: 2px;
+}
+  
+#container
+{
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 55px;
+}

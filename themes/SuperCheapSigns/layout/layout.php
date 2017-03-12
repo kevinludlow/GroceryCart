@@ -20,6 +20,13 @@
 
   echo "<body>\n\n";
 
+  echo "<!--open the header-->\n";
+  echo "<div id=\"header\">\n";
+  echo "  <div class=\"title\">Grocery List</div>\n";
+  echo "  <div class=\"subtitle\">sample code by kevin ludlow</div>\n";
+  echo "</div>\n";
+  echo "<!--close the header-->\n\n";
+
   echo "<!--open the container-->\n";
   echo "<div id=\"container\">\n\n";
 
