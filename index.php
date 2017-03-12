@@ -17,6 +17,9 @@
   // Include configuration file
   include_once( "config/config.php" );
 
+  // Connect to the database
+  include_once( "../../db/connect.php" );
+
   // Set the level of error reporting and either
   // turn on or off the displaying of errors
   error_reporting( E_ERROR );
@@ -60,5 +63,8 @@
 
   // Finally output assembled contents to the screen
   echo $buffer;
+
+  // Disconnect from the database
+  include_once( "../../db/disconnect.php" );
 
 ?>

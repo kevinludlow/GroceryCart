@@ -15,6 +15,19 @@
   ///
 
   ///
+  /// @brief   This is the name of the database in which the system resides.
+  /// 
+               define( '_DB_NAME', '`www.kevinludlow.supercheapsigns.com`' );
+
+  ///
+  /// @brief   Name of the prefix (if any) being used for the application
+  ///          Note that I just included this by habit; we won't use it in
+  ///          this application, but it's useful for rolling out multiple
+  ///          copies of an application (as a CMS sometimes is used for)
+  ///
+               define( '_DB_PREFIX', '' );
+
+  ///
   /// @brief   The fully qualified project HTTP URL (Apache - Port 80)
   ///          Note that this is useful for redirection handling
   ///
