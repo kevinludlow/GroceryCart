@@ -14,15 +14,16 @@
   // Start the output buffering
   ob_start();
 
-  // Include configuration file
+  // Include configuration files
   include_once( "config/config.php" );
+  include_once( "config/config_general.php" );
 
   // Connect to the database
-  include_once( "../../db/connect.php" );
+  include_once( "db/connect.php" );
 
   // Set the level of error reporting and either
   // turn on or off the displaying of errors
-  error_reporting( E_ERROR );
+  error_reporting( E_ALL );
   ini_set( 'display_errors', '1' );
 
   // Include any common functions
@@ -65,6 +66,6 @@
   echo $buffer;
 
   // Disconnect from the database
-  include_once( "../../db/disconnect.php" );
+  include_once( "db/disconnect.php" );
 
 ?>
