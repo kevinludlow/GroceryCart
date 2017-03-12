@@ -7,7 +7,8 @@
   $result = mysql_query( $query );
   $numrows = mysql_num_rows( $result );
 
-  $layout['content'] .= "<h1>Available Grocery Lists</h1>";
+  $layout['content'] .= "<h1>Available Grocery Lists</h1>\n";
+  $layout['content'] .= "<h2>&nbsp;</h2>\n";
 
   // Build a simple display table
   $layout['content'] .= "<table class=\"tabular\">\n";

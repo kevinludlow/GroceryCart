@@ -40,15 +40,23 @@ html, body
   padding-left: 55px;
 }
 
-a         { color: #3b5998; text-decoration: none; }
-a:link    { color: #3b5998; text-decoration: none; }
-a:visited { color: #3b5998; text-decoration: none; }
-a:hover   { color: #3b5998; text-decoration: underline; }
-a:active  { color: #3b5998; text-decoration: none; }
+a         { color: #3997d1; text-decoration: none; }
+a:link    { color: #3997d1; text-decoration: none; }
+a:visited { color: #3997d1; text-decoration: none; }
+a:hover   { color: #3997d1; text-decoration: underline; }
+a:active  { color: #3997d1; text-decoration: none; }
 
 h1
 {
   font-size: 24px;
+  line-height: 28px;
+}
+
+h2
+{
+  font-size: 14px;
+  line-height: 0px;
+  margin-bottom: 32px;
 }
 
 table.tabular
@@ -70,4 +78,12 @@ table.tabular tr td
   font-size: 12px;
   padding-left: 8px;
   height: 30px;
+}
+
+table.tabular tr th.add
+{
+  font-size: 20px;
+  padding-right: 8px;
+  text-align: center;
+  width: 20px;
 }

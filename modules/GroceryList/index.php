@@ -18,6 +18,10 @@
       include( "modules/$module/list.php" );
       break;
 
+    case 'view':
+      include( "modules/$module/view.php" );
+      break;
+
     default:
       include( "modules/$module/list.php" );
       break;

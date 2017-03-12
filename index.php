@@ -45,7 +45,8 @@
   // array, default to the Home module
   if( ! in_array( $module, $modules ) )
   {
-    // TODO - a basic redirect
+    header( "Location: "._PATH_WEB_ROOT."?module=GroceryList" );
+    die();
   }
 
   // Load the module data
