@@ -24,7 +24,7 @@
   // Set the level of error reporting and either
   // turn on or off the displaying of errors
   error_reporting( E_ALL );
-  ini_set( 'display_errors', '1' );
+  ini_set( 'display_errors', '0' );
 
   // Include any common functions
   include_once( "include/func.Common.php" );

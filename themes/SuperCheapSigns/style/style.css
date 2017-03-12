@@ -39,3 +39,35 @@ html, body
   padding-top: 100px;
   padding-left: 55px;
 }
+
+a         { color: #3b5998; text-decoration: none; }
+a:link    { color: #3b5998; text-decoration: none; }
+a:visited { color: #3b5998; text-decoration: none; }
+a:hover   { color: #3b5998; text-decoration: underline; }
+a:active  { color: #3b5998; text-decoration: none; }
+
+h1
+{
+  font-size: 24px;
+}
+
+table.tabular
+{
+  width: 80%;
+}
+
+table.tabular tr th
+{
+  font-size: 12px;
+  text-align: left;
+  background-color: #eeeeee;
+  height: 30px;
+  padding-left: 8px;
+}
+
+table.tabular tr td
+{
+  font-size: 12px;
+  padding-left: 8px;
+  height: 30px;
+}

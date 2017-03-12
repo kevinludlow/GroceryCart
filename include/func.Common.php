@@ -23,4 +23,21 @@
 
   } // end of function get_module()
 
+
+  // Create a function for getting variables safely.
+  // Essentially we're just error checking any
+  // GET requests and allowing a method to handle
+  // a default any time the variable is NOT set
+  // in the URI
+  function safe_get( $request, $default = NULL )
+  {
+    if( isset( $_GET[$request] ) )
+      $$request = $_GET[$request];
+    else
+      $$request = $default;
+
+    return $$request;
+
+  } // end of function safe_get()
+
 ?>
